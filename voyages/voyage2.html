@@ -2,21 +2,25 @@
  <head>
   <meta charset="utf-8">
   <title>Titre de la page</title>
-  <link rel="stylesheet" href="css-voyage/css:voyage2.css">
+  <link rel="stylesheet" href="../css-voyage/voyage2.css">
   <script src="script.js"></script>
  </head>
   <body>
     <header>
 				<nav>
-					<ul>
-            <li><a href="../index.html">ACCEUIL</a></li>
-						<li><a href="../voyages/voyage1.html">BRÉSIL</a></li>
-						<li><a href="../voyages/voyage2.html">USA</a></li>
-						<li><a href="#contact">Contactez-nous</a></li>
+<ul id="menu-deroulant">
+	<li><a href="#">Amérique du Nord</a>
+		<ul>
+			<li><a href="../index.html">ACCEUIL</a></li>
+			<li><a href="voyage2.html">USA</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</li>
 					</ul>
 				</nav>
+	  </header>
         <video class="video" autoplay muted loop>
-          <source src="video-voyage/clipusa.mp4" type="video/mp4" />
+          <source src="../video-voyage/clipusa.mp4" type="video/mp4" />
           <source src="movie.ogg" type="video/ogg" />
         Your browser does not support the video tag.
         </video>
@@ -29,7 +33,7 @@
 				<h3> Le pays de tous les posibles</h3>
         <p> "YES WE CAN" BARACK OBAMA</p>
       <div>
-        <img class="usaflag" src="img-voyage/usaflag.jpeg" alt="USA Flag">
+        <img class="usaflag" src="../img-voyage/usaflag.jpeg" alt="USA Flag">
 			</div>
     </div>
       <br>
@@ -162,7 +166,7 @@
        <td> 705 749  </td>
      </tr>
    </table>
-    <img class="usacountry" src="img-voyage/usacountry.png" alt="USA country">
+    <img class="usacountry" src="../img-voyage/usacountry.png" alt="USA country">
   <!-- fin trableau-->
   <h2> Les USA on aceuillit 77 millions de visiteurs etrangé en 2017. Pourquoi pas vous? </h2>
   <p> Voici le top 10 des endroit les plus visités aux États Unis..
@@ -198,15 +202,14 @@
             <table>
                 <thead>
                     <tr>
-                        <th>LOIC</th>
+						<th>ACCEUIL</th>
                         <th>TOM</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                      <td><a href="../index.html">ACCEUIL</a></td>
-                      <td><a href="../voyages/voyage1.html">BRESIL</a></td>
-                      <td><a href="../voyages/voyage2.html">USA</a></td>
+                        <td><a href="../index.html">ACCEUIL</a></td>
+                        <td><a href="../voyages/voyage2.html">USA</a></td>
                     </tr>
                 </tbody>
             </table>
